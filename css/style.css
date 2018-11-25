@@ -1,0 +1,85 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #b1e9f7;
+}
+
+.app {
+  padding-top: 20px;
+  padding-bottom: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.app_main {
+  min-height: 100px;
+  margin: 25px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+#searchText {
+  width: 200px;
+  height: 40px;
+  font-size: 1.4em;
+}
+
+label {
+  font-size: 20px;
+  font-weight: 700;
+  padding: 10px;
+  margin: 10px;
+  color: #800046;
+  background-color: yellow;
+}
+
+.users-list {
+  list-style-type: none;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.users-list .users-header {
+  text-align: center;
+  font-size: 30px;
+  padding: 10px;
+  margin: 5px;
+  background-color: #b3cce6;
+}
+
+.users-git {
+  margin: 10px;
+}
+
+.users-git .git-img {
+  margin: auto;
+  width: 130px;
+  height: 130px;
+  background-color: white;
+  border: 1px solid black;
+  display: flex;
+}
+
+.users-git .git-img img {
+  margin: auto;
+}
+
+.git-link {
+  text-align: center;
+  line-height: 10%;
+  padding-bottom: 30px;
+}
+
+.git-link .link_prop {
+  cursor: pointer;
+}
+
+/*# sourceMappingURL=style.css.map */

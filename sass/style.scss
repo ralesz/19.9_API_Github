@@ -1,0 +1,83 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: rgb(177, 233, 247); 
+}
+
+.app {
+  padding-top: 20px;
+  padding-bottom: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.app_main {
+  min-height: 100px;
+  margin: 25px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+#searchText {
+  width: 200px;
+  height: 40px;
+  font-size: 1.4em;
+}
+
+label {
+  font-size: 20px;
+  font-weight: 700;
+  padding: 10px;
+  margin: 10px;
+  color: rgb(128, 0, 70);
+  background-color: yellow;
+}
+
+.users-list {
+  list-style-type: none;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+  .users-header {
+    text-align: center;
+    font-size: 30px;
+    padding: 10px;
+    margin: 5px;
+    background-color: #b3cce6;
+  }
+}
+
+.users-git {
+  margin: 10px;
+  
+  .git-img {
+    margin: auto;
+    width: 130px;
+    height: 130px;
+    background-color:white;
+    border: 1px solid black;
+    display: flex;
+  
+    img {
+      margin: auto;
+    }
+  }
+}
+
+.git-link {
+  text-align: center;
+  line-height:10%;
+  padding-bottom: 30px; 
+
+  .link_prop {
+    cursor: pointer;
+  }
+}
